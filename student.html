@@ -1,0 +1,12 @@
+INSERT INTO student VALUES('1', 'Aarav Sharma', '19', 'Computer Science','85'),
+('2', 'Meera Nair','22', 'Physics','90'),
+('3', 'Rahul Menon','21', 'Mathematics','76'),
+('4', 'Ananya Pillai','23', 'Computer Science','88');
+
+SELECT * FROM `student` WHERE age>20;
+
+SELECT * FROM student WHERE department IN('computer science','physics');
+
+SELECT * FROM `student` WHERE grade=90;
+
+SELECT * FROM `student` WHERE grade BETWEEN 70 AND 90;
